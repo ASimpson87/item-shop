@@ -19,15 +19,14 @@ Items are now stored in the database. When the player spawns ingame, the items a
 1. Extract the folder and rename it to itemshop
 2. Place the folder in your resource folder
 3. Add - itemshop to your citmp-server.yml
-4. Change the mysql connection in sv_itemshop.lua
 6. Restart your server
 7. Have fun.
 
 ## Setup
 
-Changing the limit of weapons : 
-Open sv_weashop.lua and change the line :
-	local max_number_weapons = 6
+Changing the limit of items : 
+Open sv_shop.lua and change the line :
+	local max_number_items = 5000
 
 Change the cost of purchasing items :
 Open shop.lua and change the lines :
